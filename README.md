@@ -1,6 +1,5 @@
-# datafun-01-utils
-
-Reusable module for my Data Analytics Python projects
+# datafun-02-project-setup
+Utilities for scripting project folders
 
 ## Project Requirements
 
@@ -8,13 +7,15 @@ Reusable module for my Data Analytics Python projects
 - Git
 - Python 
 
-## Workflow
+## Professional Python Workflow
 
 See [pro-analytics-01](https://github.com/denisecase/pro-analytics-01/)
 
 ## Commands to Manage Virtual Environment
 
-For Windows PowerShell (change if using Mac/Linux)
+For Windows PowerShell (change if using Mac/Linux).
+Verify that all required packages are included in requirements.txt (and have NOT been commented out).
+
 
 ```powershell
 py -m venv .venv
@@ -23,11 +24,15 @@ py -m pip install --upgrade pip setuptools wheel
 py -m pip install --upgrade -r requirements.txt
 ```
 
-## Commands to Run Python Script
+## Commands to Run Python Scripts
+
+Remember to activate your .venv (and install packages if they haven't been installed yet) before running files.
+
+TODO: Change these to reflect your Python file names and remove this TODO.
 
 ```shell
 py utils_case.py
-py utils_case_advanced.py
+py dirbot_case.py
 ```
 
 ## Commands to Git add-commit-push
@@ -38,22 +43,9 @@ git commit -m "custom message"
 git push -u origin main
 ```
 
-## Reference Project
+## Reference Projects
 
-Custom implementation of the example reusable project at 
-[datafun-01-util](https://github.com/denisecase/datafun-01-utils)
+Custom implementation of the example project at 
+[datafun-02-project-setup](https://github.com/denisecase/datafun-02-project-setup)
 
-## Markdown Notes
-
-- A Markdown title starts with: hash space
-- A Markdown second-level heading starts with: hash hash space
-- A Markdown un-ordered list starts with: dash space
-- A Markdown ordered list start with: 1. space
-- Markdown code fencing uses three **back tics** on their own line to display code and commands.
-- Markdown **bold text** is surrounded by: two asterisks
-- Markdown *underline text* is surrounded by: one asterisk
-- Markdown is critical for project README files, Jupyter Notebooks, and writing technical papers with Sphinx
-
-## Example Screenshots
-
-![VS Code While Working](images/vs_code_while_working.png)
+- [Module 1 Repo](https://github.com/denisecase/datafun-01-utils/)
